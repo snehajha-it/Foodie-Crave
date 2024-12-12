@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resturent</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"/>
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"/>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+      <link rel="stylesheet" href="resturent.css">
+  </head>
+  <body>
+    <div class="gray-background"></div>
+    <div class="popup">
+      <form>
+        <input type="text" id="name" placeholder="Enter Your Name" />
+        <input type="email" id="email" placeholder="Enter Your Email" />
+        <select class="food-options">
+          <option>Healty food</option>
+          <option>Pizza</option>
+          <option>Burger</option>
+        </select>
+        <button id="enter_btn">submit</button>
+      </form>
+    </div>
+    <div class="mobile-view">
+      <div class="header">
+        <div class="container">
+          <div class="navbar">
+            <div class="logo">
+              <img
+                src="https://elements-cover-images-0.imgix.net/6359eb8d-2d31-4bea-a137-92baa4b68eb2?auto=compress%2Cformat&fit=max&w=2740&s=478a3e8e28b0c42eb79183d514a9406b"/>
+            </div>
+            <nav>
+              <ul>
+                <li><a class="link" href="">Home</a></li>
+                <li> <a class="link" href="#our_food">Our food</a> </li>
+                <li><a class="link" href="#offers">Offers</a></li>
+                <li><a class="link" href="#ourdrinks">Our drinks</a></li>
+                <li><a class="link" href="">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="row">
+            <div class="col-2">
+              <h1>Order tasty <br />Fresh food!</h1>
+              <p id="pp">
+                Anytime & everywhere 
+              </p>
+              <button class="btn">Choose your meal</button>
+            </div>
+            <div class="col-2">
+              <img
+                class="pic"
+                src="https://images.pexels.com/photos/2725744/pexels-photo-2725744.jpeg?cs=srgb&dl=pexels-engin-akyurt-2725744.jpg&fm=jpg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-------- featured categories--------->
+      <div class="categories" id="food-options">
+        <div class="small-container">
+          <div class="row">
+            <div class="col-3">
+              <img
+                src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?cs=srgb&dl=pexels-ella-olsson-1640777.jpg&fm=jpg"
+              />
+              <h3>Healty food</h3>
+            </div>
+            <div class="col-3">
+              <img
+                src="https://images.pexels.com/photos/3731422/pexels-photo-3731422.jpeg?cs=srgb&dl=pexels-horizon-content-3731422.jpg&fm=jpg"
+              />
+              <h3>Pizza</h3>
+            </div>
+            <div class="col-3">
+              <img
+                src="https://images.pexels.com/photos/4809158/pexels-photo-4809158.jpeg?cs=srgb&dl=pexels-aleksandar-ljubicic-4809158.jpg&fm=jpg"
+              />
+              <h3>Burger</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-------featured products--------->
+      <div class="small-container">
+        <h2 class="title">Offers</h2>
+        <hr />
+        <div class="row Offers" id="offers">
+          <div class="col-4">
+            <img
+              src="https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg?cs=srgb&dl=pexels-brett-jordan-825661.jpg&fm=jpg"
+            />
+            <h4>Pizza Discount</h4>
+            <p>10.00€</p>
+          </div>
+          <div class="col-4">
+            <img
+              src="https://images.pexels.com/photos/4021955/pexels-photo-4021955.jpeg?cs=srgb&dl=pexels-ready-made-4021955.jpg&fm=jpg"
+            />
+            <h4>Burger Discount</h4>
+            <p>13.00€</p>
+          </div>
+          <div class="col-4">
+            <img
+              src="https://images.pexels.com/photos/4518836/pexels-photo-4518836.jpeg?cs=srgb&dl=pexels-polina-tankilevitch-4518836.jpg&fm=jpg"
+            />
+            <h4>shrimp pasta Discount</h4>
+            <p>15.00€</p>
+          </div>
+          <div class="col-4">
+            <img
+              src="https://images.pexels.com/photos/7741852/pexels-photo-7741852.jpeg?cs=srgb&dl=pexels-emre-vonal-7741852.jpg&fm=jpg"
+            />
+            <h4>Steak Discount</h4>
+            <p>20.00€</p>
+          </div>
+        </div>
+        <h2 class="title">Our drinks</h2>
+      </div>
+      <hr />
+      <div class="row" id="products">
+        <div class="col-4">
+          <img
+            src="https://images.pexels.com/photos/96974/pexels-photo-96974.jpeg?cs=srgb&dl=pexels-photomix-company-96974.jpg&fm=jpg"
+            width="200"
+            height="350"
+          />
+          <h4>Lemon juice</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>4.00€</p>
+        </div>
+        <div class="col-4">
+          <img
+            src="https://images.pexels.com/photos/616833/pexels-photo-616833.jpeg?cs=srgb&dl=pexels-toni-cuenca-616833.jpg&fm=jpg"
+            width="200"
+            height="350"
+          />
+          <h4>Apple cucumber juice</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>5.00€</p>
+        </div>
+        <div class="col-4">
+          <img
+            src="https://images.pexels.com/photos/4113138/pexels-photo-4113138.jpeg?cs=srgb&dl=pexels-leah-rolando-4113138.jpg&fm=jpg"
+            width="200"
+            height="350"
+          />
+          <h4>Watermelon juice</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>5.00€</p>
+        </div>
+        <div class="col-4">
+          <img
+            src="https://images.pexels.com/photos/990439/pexels-photo-990439.jpeg?cs=srgb&dl=pexels-josh-sorenson-990439.jpg&fm=jpg"
+            width="200"
+            height="350"
+          />
+          <h4>Faragello juice</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>5.00€</p>
+        </div>
+      </div>
+
+      <!----footer-->
+
+      <footer id="footer" class="section footer">
+        <div class="container">
+          <div class="footer-container">
+            <div class="footer-center">
+              <h3>useful links</h3>
+              <a href="#">coupons</a>
+              <a href="#">Blog post</a>
+              <a href="#">Return policy</a>
+              <a href="#">Join</a>
+            </div>
+
+            <div class="footer-center">
+              <h3>INFORMATION</h3>
+              <a href="#">About Us</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Terms & Conditions</a>
+              <a href="#">Contact Us</a>
+            </div>
+
+            <div class="footer-center">
+              <h3>Follow us</h3>
+              <a href="#">Facebook</a>
+              <a href="#">Twitter</a>
+              <a href="#">Instagram</a>
+              <a href="#">YouTube</a>
+            </div>
+
+            <div class="footer-center">
+              <h3>Download Our App</h3>
+              <div>Download App for Android and ios mobile phone</div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="module" src="resturent.js"></script>
+  </body>
+</html>
